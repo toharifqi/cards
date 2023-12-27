@@ -13,14 +13,14 @@ import jakarta.validation.constraints.PositiveOrZero
 data class Card(
 
     @field:NotEmpty(message = "Mobile Number can not be a null or empty")
-    @field:Pattern(regexp="(^$|[0-9]{10})",message = "Mobile Number must be 10 digits")
+    @field:Pattern(regexp="(^$|[0-9]{12})",message = "Mobile Number must be 12 digits of number")
     @Schema(
         description = "Mobile Number of Customer", example = "4354437687"
     )
     var mobileNumber: String,
 
     @field:NotEmpty(message = "Card Number can not be a null or empty")
-    @field:Pattern(regexp="(^$|[0-9]{12})",message = "CardNumber must be 12 digits")
+    @field:Pattern(regexp="(^$|[0-9]{12})",message = "CardNumber must be 12 digits of number")
     @Schema(
         description = "Card Number of the customer", example = "100646930341"
     )

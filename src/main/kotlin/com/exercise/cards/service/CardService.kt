@@ -30,7 +30,7 @@ class CardServiceImpl(
     }
 
     private fun generateCard(mobileNumber: String): CardEntity {
-        val randomCardNumber = 1000000000L + Random.nextInt(900000000)
+        val randomCardNumber = 100000000000L + Random.nextInt(900000000)
 
         return CardEntity(
             mobileNumber = mobileNumber,
