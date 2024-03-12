@@ -15,3 +15,14 @@ spring:
       ddl-auto: update
     show-sql: true
 
+build:
+  version: "3.0"
+
+cards:
+  message: "Welcome to XBank accounts cards local APIs"
+  contactDetails:
+    name: "Dragos Lech - Developer"
+    email: "dragos@xbank.com"
+  onCallSupport:
+    - (+62) 855-5555-3333
+    - (+62) 837-4322-8883
