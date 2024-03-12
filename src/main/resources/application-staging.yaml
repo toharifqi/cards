@@ -7,7 +7,7 @@ build:
   version: "2.0"
 
 cards:
-  message: "Welcome to XBank accounts cards staging APIs"
+  message: "Welcome to XBank accounts cards QA APIs"
   contactDetails:
     name: "Cherryl Pankaj - QA Lead"
     email: "cherryl@xbank.com"
